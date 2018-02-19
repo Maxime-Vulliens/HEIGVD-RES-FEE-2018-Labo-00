@@ -10,6 +10,7 @@ import org.junit.Test;
 
 
 public class ClavierTest {
+
   @Test
   public void thereShouldBeAClavierClass() {
     IInstrument clavier = new Clavier();
@@ -43,4 +44,5 @@ public class ClavierTest {
     String color = clavier.getColor();
     Assert.assertEquals("ivory", color);
   }
+
 }
